@@ -1,6 +1,4 @@
 # author : https://github.com/Tony607/voc2coco
-# pip install lxml
-
 import sys
 import os
 import json
