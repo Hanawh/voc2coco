@@ -14,7 +14,7 @@ Then you will find several files `*_xml, *_data etc` in YOUR_ROOT. We will base 
 
 #  Second step
 ```python
-sudo python xml2json.py YOUR_ROOT/train_xml YOUR_ROOT/train.json
-sudo python xml2json.py YOUR_ROOT/val_xml YOUR_ROOT/val.json
-sudo python xml2json.py YOUR_ROOT/test_xml YOUR_ROOT/test.json
+sudo python xml2json.py YOUR_ROOT/train_xml YOUR_ROOT/annotations/train.json
+sudo python xml2json.py YOUR_ROOT/val_xml YOUR_ROOT/annotations/val.json
+sudo python xml2json.py YOUR_ROOT/test_xml YOUR_ROOT/annotations/test.json
 ```
